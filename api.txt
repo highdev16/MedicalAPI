@@ -1,0 +1,12 @@
+USER LOGIN:   /api/user/login   POST
+
+input:  email, password
+output: {message: "OK", user: ID} / {message: 'no'}
+
+
+
+
+USER SIGNUP:   /api/user     POST
+
+input: email, password, phoneno, name, address
+output: {message: 'success'}
